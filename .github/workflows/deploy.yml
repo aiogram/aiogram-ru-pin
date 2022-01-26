@@ -8,6 +8,7 @@ env:
   TELEGRAPH_PATH: ${{ secrets.TELEGRAPH_PATH }}
   TELEGRAPH_AUTHOR: ${{ secrets.TELEGRAPH_AUTHOR }}
   TELEGRAPH_AUTHOR_URL: ${{ secrets.TELEGRAPH_AUTHOR_URL }}
+  TELEGRAPH_TITLE: ${{ secrets.TELEGRAPH_TITLE }}
 
 jobs:
   build:
