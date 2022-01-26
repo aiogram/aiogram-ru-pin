@@ -1,0 +1,30 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+env:
+  TELEGRAPH_TOKEN: ${{ secrets.TELEGRAPH_TOKEN }}
+  TELEGRAPH_PATH: ${{ secrets.TELEGRAPH_PATH }}
+  TELEGRAPH_AUTHOR: ${{ secrets.TELEGRAPH_AUTHOR }}
+  TELEGRAPH_AUTHOR_URL: ${{ secrets.TELEGRAPH_AUTHOR_URL }}
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        pip install -U pip virtualenv poetry
+        poetry config virtualenvs.create false
+        poetry install
+    - name: Deploy to Telegra.ph
+      run: |
+        python main.py
