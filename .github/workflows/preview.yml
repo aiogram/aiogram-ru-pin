@@ -32,13 +32,13 @@ jobs:
       with:
         script: |
           await github.rest.issues.createComment({
-            issue_number: context.pull_request.number,
+            issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
             body: process.env.PAGE_URL
           })
           await github.rest.issues.removeLabel({
-            issue_number: context.pull_request.number,
+            issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
             name: 'wait-preview'
