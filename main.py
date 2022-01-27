@@ -1,5 +1,6 @@
 import asyncio
 import os
+import sys
 from pathlib import Path
 
 import mistune
@@ -26,16 +27,35 @@ class TelegraphRenderer(mistune.HTMLRenderer):
         return '<li>' + text + '</li>'
 
 
-async def main():
-    telegraph = Telegraph(os.environ["TELEGRAPH_TOKEN"])
-    html = mistune.create_markdown(renderer=TelegraphRenderer())
-    md_content = Path("README.md").read_text("utf-8")
-    html_content = html(md_content)
-    nodes_content = list(filter(lambda x: x != "\n", html_to_nodes(html_content)))
-    await telegraph.edit_page(os.environ["TELEGRAPH_PATH"], title=os.environ["TELEGRAPH_TITLE"], content=nodes_content,
-                              author_name=os.environ["TELEGRAPH_AUTHOR"], author_url=os.environ["TELEGRAPH_AUTHOR_URL"])
+async def main(args: str):
+    telegraph = Telegraph()
+    try:
+        html = mistune.create_markdown(renderer=TelegraphRenderer())
+        md_content = Path("README.md").read_text("utf-8")
+        html_content = html(md_content)
+        nodes_content = list(filter(lambda x: x != "\n", html_to_nodes(html_content)))
+        match args:
+            case "deploy":
+                token = os.environ["TELEGRAPH_TOKEN"]
+                path = os.environ["TELEGRAPH_PATH"]
+                title = os.environ["TELEGRAPH_TITLE"]
+                author = os.environ["TELEGRAPH_AUTHOR"]
+                author_url = os.environ["TELEGRAPH_AUTHOR_URL"]
+                telegraph.token = token
+                await telegraph.edit_page(path, title=title,
+                                          content=nodes_content,
+                                          author_name=author,
+                                          author_url=author_url)
+            case "preview":
+                title = os.environ["TELEGRAPH_TITLE"]
+                author = os.environ["TELEGRAPH_AUTHOR"]
+                author_url = os.environ["TELEGRAPH_AUTHOR_URL"]
+                await telegraph.create_account(short_name=author, author_name=author, author_url=author_url)
+                page = await telegraph.create_page(title, nodes_content)
+                print(f"PAGE_URL={page.url}")
+    finally:
+        await telegraph.close()
 
-    await telegraph.close()
 
 if __name__ == '__main__':
-    asyncio.run(main())
+    asyncio.run(main("".join(sys.argv[1:])))

@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "gh-telegraph"
+name = "aiogram-ru-pin"
 version = "0.1.0"
-description = ""
-authors = ["Gabben <github@sosus.org>"]
+description = "Sync GH with Telegraph"
+authors = ["Nikita Gabbasov <github@sosus.org>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
