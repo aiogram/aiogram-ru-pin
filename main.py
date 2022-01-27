@@ -51,7 +51,7 @@ async def main(args: str):
                 author = os.environ["TELEGRAPH_AUTHOR"]
                 author_url = os.environ["TELEGRAPH_AUTHOR_URL"]
                 await telegraph.create_account(short_name=author, author_name=author, author_url=author_url)
-                page = await telegraph.create_page(title, nodes_content)
+                page = await telegraph.create_page(title, nodes_content, author_name=author, author_url=author_url)
                 print(f"PAGE_URL={page.url}")
     finally:
         await telegraph.close()
