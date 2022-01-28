@@ -138,7 +138,7 @@ data = ctx_data.get()
 
 #### [Как запустить функцию по таймеру?](#%D0%9A%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8E-%D0%BF%D0%BE-%D1%82%D0%B0%D0%B9%D0%BC%D0%B5%D1%80%D1%83?)
 
-[Клик](/Zapusk-funkcij-v-bote-po-tajmeru-11-28)
+[Клик](https://botfather.dev/blog/zapusk-funkczij-v-bote-po-tajmeru)
 
 #### [Как отловить присоединение пользователя в чат?](#%D0%9A%D0%B0%D0%BA-%D0%BE%D1%82%D0%BB%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%BF%D1%80%D0%B8%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F-%D0%B2-%D1%87%D0%B0%D1%82?)
 
@@ -249,11 +249,11 @@ https://t.me/aiogram_ru/785043
 
 ### Обучающие материалы
 
-[Разработка Telegram Bot на Python](https://www.youtube.com/playlist?list=PLwVBSkoL97Q3phZRyInbM4lShvS1cBl-U) - серия видеоуроков от [@Latand](http://t.me/Latand)
-
 [Пишем Telegram-ботов на Python (v2)](https://mastergroosha.github.io/telegram-tutorial-2/) - книга по ботам на aiogram от [@Groosha](http://t.me/Groosha)
 
 [Разработка Телеграм ботов на Python](https://t.me/botfatherdev) - Telegram канал от [@Latand](http://t.me/Latand)
+
+[Курс по разработке ботов на aiogram](https://botfather.dev/?utm_source=aiogram&utm_medium=aiogram_FAQ) - подробный обучающий курс по ботам от Работы с Telegram Bot API до настройки БД в ботах и деплоя на сервер.  
 
 [**\[наверх\]**](#%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5)
 
@@ -261,11 +261,9 @@ https://t.me/aiogram_ru/785043
 
 ### Шаблоны ботов
 
-[aiogram-bot-template](https://github.com/Latand/aiogram-bot-template) от [@Latand](http://t.me/Latand)
+[tgbot\_template](https://github.com/Tishka17/tgbot_template) от [@Tishka17](http://t.me/Tishka17)
 
 [aiogram\_template](https://github.com/F0rzend/aiogram_template) от [@F0rzend](http://t.me/F0rzend)
-
-[tgbot\_template](https://github.com/Tishka17/tgbot_template) от [@Tishka17](http://t.me/Tishka17)
 
 [aiogram-bot-template](https://github.com/Forden/aiogram-bot-template) от [@f0rden](http://t.me/f0rden) 
 
