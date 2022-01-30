@@ -2,7 +2,7 @@
 
 Если **вы новенький**, то обратитесь к разделу [FAQ-чат](#%D1%87%D0%B0%D1%82), чтобы понять как эффективно вести общение в чате.
 
-Ошибки и предложения по тексту принимаются в репозитории [gabbhack/aiogram-ru-pin](https://github.com/gabbhack/aiogram-ru-pin)
+Ошибки и предложения по тексту принимаются в репозитории [aiogram/aiogram-ru-pin](https://github.com/aiogram/aiogram-ru-pin)
 
 * * *
 
