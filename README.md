@@ -287,6 +287,8 @@ https://t.me/aiogram_ru/785043
 
 [aiogram-and-sqlalchemy-demo](https://github.com/MasterGroosha/aiogram-and-sqlalchemy-demo) - A simple demo of using aiogram + async sqlalchemy 1.4+ от [@Groosha](http://t.me/Groosha)
 
+[aiogram3.x-routers-decorators](https://github.com/MasterGroosha/aiogram-3.x-routers-and-decorators) - Пример использования декораторов вместе с роутерами в aiogram 3.x
+
 [aiogram-aws-serverless-example](https://github.com/DavisDmitry/aiogram-aws-serverless-example)
 
 [aiogram-yandex.cloud-serverless-example](https://github.com/DavisDmitry/aiogram-yandex.cloud-serverless-example)
