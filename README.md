@@ -319,6 +319,8 @@ https://t.me/aiogram_ru/785043
 
 ### Прочие ресурсы
 
+[awesome-aiogram](https://github.com/comictomcat/awesome-aiogram)
+
 [awesome-telegram](https://github.com/ebertti/awesome-telegram)
 
 [TelegramBotsList](https://github.com/DanySpin97/TelegramBotsList)
