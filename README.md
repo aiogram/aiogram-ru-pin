@@ -269,7 +269,7 @@ https://t.me/aiogram_ru/785043
 
 [aiogram-bot-template](https://github.com/Forden/aiogram-bot-template) от [@f0rden](http://t.me/f0rden) 
 
-[aiogram_template_by_Azizbel](https://github.com/laymi0/Template) от [@laymi0](http://t.me/laymi0)
+[aiogram_template_by_Azizbek](https://github.com/laymi0/Template) от [@laymi0](http://t.me/laymi0)
 
 [**\[наверх\]**](#%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5)
 
