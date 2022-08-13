@@ -301,7 +301,7 @@ https://t.me/aiogram_ru/785043
 
 ### Библиотеки
 
-[aiogram\_dialog](https://github.com/Tishka17/aiogram_dialog) - GUI framework on top of aiogram от [@Tishka17](http://t.me/Tishka17), обсуждение в [aiogram\_dialog](http://t.me/aiogram_dialog)
+[aiogram\_dialog](https://github.com/Tishka17/aiogram_dialog) - GUI framework on top of aiogram от [@Tishka17](http://t.me/Tishka17), обсуждение в [Telegram](http://t.me/aiogram_dialog)
 
 [aiogram-scenario](https://github.com/Abstract-X/aiogram-scenario) - FSM от [@Abstract\_X](http://t.me/Abstract_X)
 
@@ -315,7 +315,7 @@ https://t.me/aiogram_ru/785043
 
 [Inline-calendar](https://github.com/Birdi7/Inline-calendar-for-telegram) - Inline calendar for Telegram
 
-[NekoGram](https://github.com/lyteloli/NekoGram) - A wrapper over aiogram that simplifies bot creation, обсуждение в [NekoGram](https://t.me/NekoGramDev)
+[NekoGram](https://github.com/lyteloli/NekoGram) - A wrapper over aiogram that simplifies bot creation, обсуждение в [Telegram](https://t.me/NekoGramDev)
 
 [fluentogram](https://github.com/Arustinal/fluentogram) - A proper way to use an i18n mechanism with Aiogram 3.
 
