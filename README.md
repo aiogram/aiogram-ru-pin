@@ -317,6 +317,8 @@ https://t.me/aiogram_ru/785043
 
 [NekoGram](https://github.com/lyteloli/NekoGram) - A wrapper over aiogram that simplifies bot creation, обсуждение в [NekoGram](https://t.me/NekoGramDev)
 
+[fluentogram](https://github.com/Arustinal/fluentogram) - A proper way to use an i18n mechanism with Aiogram 3.
+
 [**\[наверх\]**](#%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5)
 
 * * *
