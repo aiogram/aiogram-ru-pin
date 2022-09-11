@@ -249,7 +249,9 @@ https://t.me/aiogram_ru/785043
 
 ### Обучающие материалы
 
-[Пишем Telegram-ботов на Python (v2)](https://mastergroosha.github.io/telegram-tutorial-2/) - книга по ботам на aiogram от [@Groosha](http://t.me/Groosha)
+[Пишем Telegram-ботов с aiogram 3.x (β)](https://mastergroosha.github.io/aiogram-3-guide/) - книга по ботам на aiogram 3.x от [@Groosha](http://t.me/Groosha)
+
+[Пишем Telegram-ботов с aiogram 2.x](https://mastergroosha.github.io/aiogram-2-guide/) - книга по ботам на aiogram 2.x от [@Groosha](http://t.me/Groosha)
 
 [Разработка Телеграм ботов на Python](https://t.me/botfatherdev) - Telegram канал от [@Latand](http://t.me/Latand)
 
