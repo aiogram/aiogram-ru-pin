@@ -265,6 +265,8 @@ https://t.me/aiogram_ru/785043
 
 [tgbot\_template](https://github.com/Tishka17/tgbot_template) от [@Tishka17](http://t.me/Tishka17)
 
+[telegram-bot-template](https://github.com/rodion-gudz/telegram-bot-template) от [@rodion-gudz](http://t.me/fast_geek)
+
 [aiogram\_template](https://github.com/bomzheg/aiogram_template) от [@bomzheg](http://t.me/bomzheg)
 
 [aiogram\_template](https://github.com/F0rzend/aiogram_template) от [@F0rzend](http://t.me/F0rzend)
