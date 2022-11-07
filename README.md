@@ -313,7 +313,7 @@ https://t.me/aiogram_ru/785043
 
 [aiogram\_broadcaster](https://github.com/F0rzend/aiogram_broadcaster)
 
-[nats-with-fsm](https://github.com/Vermilonik/NatsWithFsmAiogram) - tracking FSM state changes with nats jetstream buckets
+[nats-with-fsm](https://github.com/Vermilonik/NatsWithFsmAiogram) - tracking FSM state changes with nats jetstream buckets(отслеживание изменений FSM состояний с помощью nats jetstream бакетов)
 
 [aiograph](https://github.com/aiogram/aiograph) - работа с [Telegraph API](/api)
 
