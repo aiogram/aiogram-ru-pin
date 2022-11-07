@@ -313,6 +313,8 @@ https://t.me/aiogram_ru/785043
 
 [aiogram\_broadcaster](https://github.com/F0rzend/aiogram_broadcaster)
 
+[nats-with-fsm](https://github.com/Vermilonik/NatsWithFsmAiogram) - tracking FSM state changes with nats jetstream buckets
+
 [aiograph](https://github.com/aiogram/aiograph) - работа с [Telegraph API](/api)
 
 [tg-codegen](https://github.com/aiogram/tg-codegen) - генерация типов и методов из документации Bot API
