@@ -134,7 +134,9 @@ data = ctx_data.get()
 
 Пример:
 
-\- [throttling\_example](https://github.com/aiogram/aiogram/blob/dev-2.x/examples/throttling_example.py) (GitHub)
+\- [throttling\_example 2.x](https://github.com/aiogram/aiogram/blob/dev-2.x/examples/throttling_example.py) (GitHub)
+\- [throttling\_example 3.x](https://github.com/MasterGroosha/telegram-casino-bot/blob/264d2fe78b9807a89f732842f8d9d58c477648e4/bot/middlewares/throttling.py) (GitHub)
+
 
 #### [Как запустить функцию по таймеру?](#%D0%9A%D0%B0%D0%BA-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8E-%D0%BF%D0%BE-%D1%82%D0%B0%D0%B9%D0%BC%D0%B5%D1%80%D1%83?)
 
