@@ -297,6 +297,8 @@ https://t.me/aiogram_ru/785043
 
 [link-kicker](https://github.com/nyudenkov/link-kicker) - [@link_kicker_bot](https://t.me/link_kicker_bot)
 
+[simplecaptcha-bot](https://github.com/prostmich/simplecaptcha-bot) - [@simplecaptcha_bot](https://t.me/simplecaptcha_bot)
+
 [остальные](https://github.com/aiogram/aiogram/network/dependents)
 
 [**\[наверх\]**](#%D0%A1%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5)
