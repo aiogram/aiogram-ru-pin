@@ -101,7 +101,7 @@
 
 4\. Отправляете Pull Request.
 
-По вопросам, связанным с кодом, можно пинговать **в чате** [@evgfilim1](http://t.me/evgfilim1) или [@JRootJunior](http://t.me/JRootJunior)
+По вопросам, связанным с кодом, можно пинговать **в чате** [@JRootJunior](http://t.me/JRootJunior)
 
 Для тех, кто не умеет в код, есть кнопка [задонатить](https://opencollective.com/aiogram) или [подписаться](https://patreon.com/aiogram).
 
